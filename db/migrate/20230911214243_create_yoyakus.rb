@@ -1,6 +1,7 @@
 class CreateYoyakus < ActiveRecord::Migration[7.0]
   def change
     create_table :yoyakus do |t|
+      t.string :user
       t.string :title
       t.text :content
       t.datetime :start_time
