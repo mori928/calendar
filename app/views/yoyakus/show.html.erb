@@ -2,17 +2,22 @@
 <p id="notice"><%= notice %></p>
 <div class="show">
 <p>
-  <strong>タイトル</strong>
+  <strong>予約内容</strong>
   <%= @yoyaku.title %>
 </p>
 
 <p>
-  <strong>内容</strong>
+  <strong>IDccc</strong>
   <%= @yoyaku.content %>
 </p>
 
 <p>
   <strong>日時</strong>
+  <%= @yoyaku.start_time.strftime("%m-%d") %>
+</p>
+
+<p>
+  <strong>コメント</strong>
   <%= @yoyaku.start_time.strftime("%m-%d") %>
 </p>
 

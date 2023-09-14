@@ -1,4 +1,10 @@
 /* custom_calendar_styles.css */
+.custom-table {
+  background-color: #ffcc00; /* 背景色を変更 */
+  font-size: 16px;          /* 文字サイズを変更 */
+  /* 他のスタイルプロパティを追加できます */
+}
+
 .calendar {
   background-color: lightblue;
 }
