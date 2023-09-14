@@ -1,4 +1,3 @@
-# README
 # テーブル設計
 
 ## users テーブル
@@ -18,7 +17,7 @@
 ## hosts テーブル
 
 | Column             | Type       | Options             |
-| -------- ------    | ------     | -----------         |
+| -------- ----------| ---------- | --------------------|
 | start_time         | string     | null: false         |
 | discus_type_id     | text       | null: false         |
 
@@ -34,7 +33,7 @@
 ## users_data テーブル
 
 | Column             | Type       | Options                        |
-| ------------------ | ------     | ---------- ------------        |
+| -------------------| -----------| -------------------------------|
 | family_name        | string     | null: false                    |
 | first_name         | string     | null: false                    |
 | family_name_kana   | string     | null: false                    |
